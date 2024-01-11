@@ -14,6 +14,8 @@ export class Player{
         this.animationFrameX = 0;
         this.animationFrameY = 0;
         this.image = document.getElementById('player'); // Can also just reference the element by id "player" instead of using getElementById also
+
+        this.jumpSound = new Audio('assets/sounds/jump.wav');
     }
     update(inputKeys){
         if(inputKeys.includes(' ') && this.attack === false){

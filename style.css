@@ -29,7 +29,6 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     color: rgb(125, 177, 255);
     text-shadow: 2px 2px 4px #000000;
-    margin-top: 30px;
 }
 
 h2{
@@ -38,5 +37,18 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     color: rgb(125, 177, 255);
     text-shadow: 2px 2px 4px #000000;
-    margin-top: 600px;
+}
+
+#title {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#instructions {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
