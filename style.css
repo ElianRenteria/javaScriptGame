@@ -18,6 +18,9 @@
 #player{
     display: none;
 }
+#greenSlime{
+    display: none;
+}
 
 #background{
     display: none;
